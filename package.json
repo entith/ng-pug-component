@@ -1,0 +1,33 @@
+{
+  "name": "ng-pug-component",
+  "version": "0.1.0",
+  "description": "A schematic for generating Angular components with Pug templates instead of HTML",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && jasmine src/**/*_spec.js"
+  },
+  "keywords": [
+    "schematics"
+  ],
+  "author": "Entith",
+  "license": "MIT",
+  "schematics": "./src/collection.json",
+  "dependencies": {
+    "@angular-devkit/core": "^7.3.8",
+    "@angular-devkit/schematics": "^7.3.8",
+    "@schematics/angular": "^7.3.8",
+    "@types/jasmine": "^3.0.0",
+    "@types/node": "^8.0.31",
+    "jasmine": "^3.0.0",
+    "typescript": "~3.2.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/entith/ng-pug-component.git"
+  },
+  "bugs": {
+    "url": "https://github.com/entith/ng-pug-component/issues"
+  },
+  "homepage": "https://github.com/entith/ng-pug-component#readme"
+}

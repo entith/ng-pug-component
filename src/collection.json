@@ -1,0 +1,17 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "extends": [
+    "@schematics/angular"
+  ],
+  "schematics": {
+    "ng-pug-component": {
+      "aliases": [ "pc" ],
+      "description": "A blank schematic.",
+      "factory": "./ng-pug-component/index#ngPugComponent"
+    },
+    "test": {
+      "description": "A blank schematic.",
+      "factory": "./test/index#test"
+    }
+  }
+}
